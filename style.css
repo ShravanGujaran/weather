@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Pink_Chicken";
+  src: url(/assets/PinkChicken-Regular.ttf);
+}
+body {
+  font-family: "Pink_Chicken";
+  
+}
+  body {
+            background-image: url('D:/weather-app-main/assets/df.jpg'); /* Path to your background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: 'Arial', sans-serif;
+            /* Additional styles can be added here */
+        }
+.weatherIcon img {
+  width: 44%;
+}
+.Main_Banner {
+  background-image: url(/assets/winter6.jpg);
+  height: 40vh;
+  background-size: cover;
+}
+.swal-modal{
+  background-color: #2b3035;
+}
+.swal-title , .swal-text , .swal-button{
+  color: #fff;
+  letter-spacing: 2px;
+}
+.swal-button{
+  color: #000;
+  letter-spacing: 2px;
+}
